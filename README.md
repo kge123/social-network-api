@@ -13,6 +13,18 @@ SO THAT my website can handle large amounts of unstructured data
 
 ## Demonstration
 
+Screencastify was used for the demonstration and due to only being able to record for 5 minutes without paying the subscription, we made 2 videos. Part 1 Demo video is demonstrating viewing all users, finding users by ID, creating a new user, updating a user, deleting a user, adding a friend and removing a friend. Part 2 Demo video is demonstrating viewing all thoughts, finding the thoughts by ID, creating a new thought, updating a thought, deleting a thought, creating a reaction to a thought and deleting a reaction from a thought.
+
+Part 1 Demo:
+<br />
+https://watch.screencastify.com/v/HRnwxHQ7dihaX6M975Ny
+<br />
+
+Part 2 Demo:
+<br />
+https://watch.screencastify.com/v/doTIbfmujefpwaodOZQZ
+<br />
+
 ## Criteria
 ```
 GIVEN a social network API
@@ -28,16 +40,20 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 ## Installation
 
+Install with 
 ```
 npm i
 ```
-
+,
+run
 ```
 node index
 ```
+to start the server
 
 ## Technologies
 
 Express.js
+<br />
 Mongoose
 
